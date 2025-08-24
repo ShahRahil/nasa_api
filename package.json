@@ -1,0 +1,25 @@
+{
+  "name": "nasa_api",
+  "version": "1.0.0",
+  "description": "This is a capstone project for Udemy Web dev bootcamp where I am building a random image generator with the NASA API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahRahil/nasa_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahRahil/nasa_api/issues"
+  },
+  "homepage": "https://github.com/ShahRahil/nasa_api#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
