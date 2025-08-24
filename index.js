@@ -5,7 +5,6 @@ import axios from "axios"
 const app = express();
 const port = 4000;
 const API_URL = "https://api.nasa.gov/planetary/apod";
-const API_KEY = "uzthIKkFviTruqdfCgLN5wPpPcHaMgmPyh55LH1d"
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
